@@ -1,0 +1,59 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111E"/>
+      <stop offset="0.55" stop-color="#10172D"/>
+      <stop offset="1" stop-color="#130A20"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="63" y1="95" x2="1110" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#F43F8E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 180) rotate(90) scale(220)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#0A0F1C" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#8FA1C7" stroke-opacity="0.06"/>
+    </pattern>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="27" stroke="url(#accent)" stroke-opacity="0.55" stroke-width="2"/>
+
+  <g transform="translate(66 60)">
+    <rect width="202" height="34" rx="17" fill="#121F38" stroke="#22D3EE" stroke-opacity="0.48"/>
+    <circle cx="19" cy="17" r="5" fill="#22D3EE"/>
+    <text x="34" y="22" fill="#D8FAFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">CONCEPT &amp; ARCHITECTURE</text>
+  </g>
+
+  <text x="66" y="161" fill="#F5F7FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="51" font-weight="800" letter-spacing="1">CRYPTO MARKET</text>
+  <text x="66" y="217" fill="url(#accent)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="51" font-weight="800" letter-spacing="1">SENTIMENT ANALYSIS</text>
+  <text x="70" y="262" fill="#A8B4D3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="500" letter-spacing="1.8">NLP × MARKET INTELLIGENCE × RISK-AWARE SIGNALS</text>
+  <rect x="70" y="286" width="630" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="70" y="320" fill="#7482A7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="1.2">FROM UNSTRUCTURED NARRATIVES TO DECISION SUPPORT</text>
+
+  <g opacity="0.92">
+    <path d="M795 252C828 238 846 192 880 202C915 213 925 120 963 135C997 148 1014 232 1050 211C1082 193 1094 112 1139 91" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M795 281C838 266 851 239 893 247C935 256 954 197 991 205C1035 214 1060 259 1139 218" stroke="#22D3EE" stroke-opacity="0.28" stroke-width="2"/>
+    <circle cx="880" cy="202" r="7" fill="#22D3EE"/>
+    <circle cx="963" cy="135" r="7" fill="#8B5CF6"/>
+    <circle cx="1050" cy="211" r="7" fill="#F43F8E"/>
+    <circle cx="880" cy="202" r="16" fill="#22D3EE" opacity="0.2" filter="url(#blur)"/>
+    <circle cx="963" cy="135" r="16" fill="#8B5CF6" opacity="0.24" filter="url(#blur)"/>
+    <circle cx="1050" cy="211" r="16" fill="#F43F8E" opacity="0.24" filter="url(#blur)"/>
+  </g>
+
+  <g transform="translate(832 56)">
+    <rect width="82" height="34" rx="17" fill="#12313B" stroke="#22D3EE" stroke-opacity="0.45"/>
+    <text x="41" y="22" text-anchor="middle" fill="#78F0FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">POSITIVE</text>
+    <rect x="92" width="80" height="34" rx="17" fill="#24213C" stroke="#8B5CF6" stroke-opacity="0.45"/>
+    <text x="132" y="22" text-anchor="middle" fill="#C7B5FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">NEUTRAL</text>
+    <rect x="182" width="82" height="34" rx="17" fill="#34182B" stroke="#F43F8E" stroke-opacity="0.45"/>
+    <text x="223" y="22" text-anchor="middle" fill="#FF9DC6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">NEGATIVE</text>
+  </g>
+</svg>
